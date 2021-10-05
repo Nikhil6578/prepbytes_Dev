@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Backtracking</title>
+</head>
+<body>
+    <h1>Backtracking is an Algo</h1>
+<p>Copyright ©2002 by David Matuszek </p>
+<p>Backtracking is a form of recursion.</p>
+<p>
+    The usual <em>scenario</em>  is that you are faced with a <i>number</i> of options, and you must choose one of these. After you make
+    your choice you will get a new set of options; just what set of options you get depends on what choice you made.
+    This procedure is repeated over and over until you reach a final <br> If you made a good sequence of choices, your
+    final state is a goal state; if you didn't, it isn't.</p>
+<p>Conceptually, you start at the root of a tree; the tree probably has some good leaves and some bad leaves, though it
+    may be that the <strong>leaves</strong> are all good or all bad. You <b>want</b> to get to a good leaf. At each node, beginning with the
+    root, you choose one of its  to, and you keep this up until you get to a leaf.</p>
+<p>Suppose you get to a bad leaf. You can <sub>backtrack</sub> to continue the search for a good leaf by revoking your most recent
+    choice, and <sup>12345</sup> out the next option in that set of options. <br>
+    If you run out of options, revoke the choice that got
+    you here, and try another choice at that node. <ins>children</ins> If you end up at the root with no options left, there are no good
+    <del>leaves</del> to be found in <strike>Lorem ipsum dolor sit amet,</strike> consectetur adipisicing..
+</p>
+<br>
+<br>
+<!-- //table tag -->
+<table border="1px" cellpadding="10px" cellspacing="10px" align="center">  
+    <thead>
+        <tr align="center">
+            <th></th>
+            <th>2 by 3 map</th>
+            <th>3 by 3 map </th>
+            <th>3 by 4 map</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>Method 1:</td>
+            <td colspan="2">60ms</td>
+            <!-- <td>90ms</td> -->
+            <td>100ms</td>
+        </tr>
+        <tr align="center">
+            <td>Method 2:</td>
+            <td>100ms</td>
+            <td colspan="2">20ms</td>
+            <td>test failed</td>
+        </tr>
+    </tbody>
+</table>
+
+<table border="1px" align="center">
+    <thead>
+        <tr align="center">
+            <th rowspan="2">Heading 1</th>
+            <th>Heading 2</th>
+            <th rowspan="2">Heading 3</th>
+        </tr>
+
+        <tr>
+            <th>SubHead2</th>
+        </tr>
+    </thead>
+</table>
+
+<br>
+<p>This need n example.</p>
+<img src="image_project.gif">
+<!-- br tag is used to give space and it is sel closing tag -->
+<br>
+<img src="image_project.gif" >
+
+<!-- hr is used to give a horizontal line  and it si sel closing tag-->
+<hr>
+
+<ol>  
+    <li>Starting at Root, your options are A and B. You choose A.</li>
+    <li>At A, your options are C and D. You choose C.</li>
+  
+    <li>C is bad. Go back to A.</li>
+    <li>At A, you have already tried C, and it failed. Try D kth element.</li>
+</ol>
+
+<!-- pre tag is used for print the exact paragraph with space -->
+<pre>
+    boolean solve(Node n) {
+        if n is a leaf node {
+            if the leaf is a goal node, return true
+            else return false
+        } else {
+            for each child c of n {
+                if solve(c) succeeds, return true
+            }
+            return false
+        }
+    }
+</pre>
+
+<pre> 
+int main(){
+    inta;
+    int b;
+    int sum = a+b;
+}
+</pre>
+
+
+<!-- code tag space preserve nahi kr pa raha -->
+<code>    
+int main(){
+    inta;
+    int b;
+    int sum = a+b;
+}
+</code>
+<br>
+<br>
+
+<iframe 
+width="560" 
+height="315" 
+src="https://www.youtube.com/embed/Ul_EM2xL_i4" 
+title="YouTube video player"
+ frameborder="0" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+
+  <br>
+
+<!-- anchor tag -->
+<a href="https://www.google.com/" target="_blank">GO To Google</a>
+<a href="author.html">About the Author</a>
+<a href="https://www.prepbytes.com/" target="_blank">Go To Prepbytes Website</a>
+    
+</body>
+
+<iframe src="https://www.prepbytes.com" scrolling="auto" frameborder="1" width="100%" height="400px"></iframe>
+</html>
+
+
+
+   
