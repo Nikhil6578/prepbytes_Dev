@@ -1,3 +1,20 @@
 label{
-    color:yellow !important;
+    /* !important means it can overridde all css */
+    /* color:yellow !important; */
+    color:yellow ;
+}
+#password{
+    color: rgb(82, 15, 82);
+}
+#checkbox{
+    color: rgb(225, 0, 255);
+    
+}
+.nikhil{
+    background-color: rgb(109, 202, 21);
+    font-family: cursive;
+    font-size: 21px;
+}
+.fontType{
+    font-size: 20px;
 }
